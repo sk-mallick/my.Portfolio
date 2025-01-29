@@ -1,7 +1,7 @@
 # SK Coder - Portfolio Website  
 
 ## 🌐 Live Site  
-[SK Coder](https://sk-coder-001.netlify.app/)  
+[SK Coder](https://sk-mallick.github.io/SK-Mallick-Portfolio/)  
 
 ## 📌 About  
 **SK Coder** is a personal portfolio website showcasing projects, skills, and experience in web development and programming. It highlights coding expertise, technical achievements, and professional background.  
