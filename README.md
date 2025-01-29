@@ -14,8 +14,7 @@
 
 ## 🔧 Tech Stack  
 - HTML, CSS, JavaScript  
-- React.js (if applicable)  
-- Hosted on **Netlify**  
+- Hosted on **GitHub**  
 
 ## 📩 Contact  
 For inquiries, reach out via the website's contact section.  
