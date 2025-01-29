@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.wrapper {
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.wrapper img {
+    height: 100%;
+    width: 100%;
+    margin-top: -50px;
+    position: absolute;
+}
+
+.wrapper label {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.wrapper label span {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: block;
+    border: 2px solid white;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.wrapper label span:before {
+    content: "TURN OFF";
+}
+
+.wrapper label span:hover {
+    background-color: beige;
+    color: black;
+}
+
+.wrapper img#bulb-on {
+    opacity: 0;
+    animation: glow 3s linear infinite;
+    transform: rotate(1deg);
+}
+
+@keyframes glow {
+    0% {
+        opacity: 1;
+    }
+    5% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    74% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+    84% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#btn:checked~img#bulb-on {
+    animation: none;
+}
+
+#btn:checked~label span:before {
+    content: "TURN ON";
+}
+
+.wrapper input {
+    display: none;
+}
